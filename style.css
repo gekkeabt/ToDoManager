@@ -1,0 +1,21 @@
+* {
+	font-family:arial;
+}
+#list:hover{
+	font-weight:bold;
+}
+div > ol {
+	border:solid 2px gray;
+  -webkit-border-radius:20px;
+  padding:30px;
+  margin:auto;
+  width:75%;
+}
+#header {
+  margin:auto;
+  width:80%;
+  font-weight:bold;
+  font-size:15px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
