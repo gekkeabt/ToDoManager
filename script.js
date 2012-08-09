@@ -1,7 +1,7 @@
 $(function(){
 var list = document.getElementById("list");
 // SetItem
-$("#list").blur(function(){
+$("#list").keypress(function(){
   localStorage.setItem(user, this.innerHTML);
 });
 
