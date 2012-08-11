@@ -4,7 +4,9 @@ var list = document.getElementById("list");
 $("#list").keypress(function(){
   localStorage.setItem(user, this.innerHTML);
 });
-
+$("#list").blur(function(){
+  localStorage.setItem(user, this.innerHTML);
+});
 // GetItem
   if(localStorage.getItem(user)){
     list.innerHTML = localStorage.getItem(user);
